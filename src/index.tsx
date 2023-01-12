@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
-import Hello from "./Hello";
+import ContactBook from "./contact-book";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<Hello />);
+root.render(<ContactBook />);
