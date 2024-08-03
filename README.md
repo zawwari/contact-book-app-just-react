@@ -16,5 +16,5 @@ Use only the default React hooks (no need to add any libraries).
 ## Getting started with this repo
 
 - Run `npm install` before you get started.
-- Add your code to the `src/use-local-storage.js` file.
+- Add your code to the `src/contact-book.tsx` file.
 - Run the app with `npm start`
