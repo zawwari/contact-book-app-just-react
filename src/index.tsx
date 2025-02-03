@@ -1,6 +1,14 @@
 import { createRoot } from "react-dom/client";
-import ContactBook from "./contact-book";
+import ContactBook from "./ContactBook";
+import { Provider } from "react-redux";
+import store from './store/store';  
+
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<ContactBook />);
+root.render(
+<Provider store={store}>
+<ContactBook/>
+</Provider>
+
+);
