@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "start": "node api.js && webpack serve --mode development"
   },
   "keywords": [],
   "author": "",
@@ -29,7 +29,9 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.2.0"
   }
 }
