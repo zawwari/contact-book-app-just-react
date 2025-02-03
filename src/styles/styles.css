@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+  padding: 20px;
+}
+
+.input-details{
+  display: flex;
+  align-items: center;
+  gap:15px;
+
+  padding:20px;
+}
+
+ button{
+
+  background-color: blueviolet;
+  padding: 13px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  color:#ffffff;
+  font-size: 15px;
+  outline:0px;
+  border: 0px;
+}
+
+.card button{
+background-color: red;
+margin-top: 30px;
+}
+
+.input-putin{
+  
+} 
+
+.card{
+background-color: blueviolet;
+  padding: 40px 20px;
+  border-radius: 12px;
+  color: #ffffff;
+  box-shadow: 6px 4px 16px 4px grey;
+   margin-bottom: 10px;
+  width: calc(33.33% - 20px);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.card .margin-top{
+  margin-top: 30px;
+}
+
+.input-details input{
+  margin-left: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  outline: none;
+  border-radius: 6px;
+  border:2px solid blueviolet;
+}
+
+.list-wrapper-card{
+display: flex;
+flex-wrap: wrap;
+margin: 0px -10px;
+}
